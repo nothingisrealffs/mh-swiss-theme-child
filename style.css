@@ -1,0 +1,93 @@
+/*
+Theme Name: MH Swiss Theme Child
+Author: Michael Ryan
+Description: Child theme for MH Swiss Theme. Extends the parent with improved single post reading experience, estimated reading time, tag display, and a dedicated sidebar widget area.
+Version: 1.0.0
+Template: mh-swiss-theme
+Text Domain: mh-swiss-theme-child
+*/
+
+/* reading time display */
+.reading-time {
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* tags in entry footer */
+.entry-tags {
+    margin-top: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.entry-tags a {
+    color: #000;
+    border-bottom: 1px solid #ddd;
+}
+
+.entry-tags a:hover {
+    color: #E8400C;
+    border-bottom-color: #E8400C;
+}
+
+/* single post typography overrides */
+.single .entry-content {
+    font-size: 1.15rem;
+    line-height: 1.9;
+}
+
+.single .entry-title {
+    font-size: 2.25rem;
+    letter-spacing: -0.03em;
+}
+
+/* page typography overrides */
+.page .entry-content {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    max-width: 760px;
+}
+
+.page .entry-title {
+    font-size: 2rem;
+    letter-spacing: -0.02em;
+    border-bottom: 3px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+/* child sidebar widget area */
+.child-sidebar {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.child-sidebar .widget {
+    margin-bottom: 30px;
+    border-top: 2px solid #000;
+    padding-top: 15px;
+}
+
+.child-sidebar .widget-title {
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 10px;
+}
+
+/* last updated on page.php */
+.last-updated {
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #777;
+    margin-top: 8px;
+}
